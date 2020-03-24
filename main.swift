@@ -11,5 +11,5 @@ for item in list {
     }
     count = 0
 }
-let element = hashmap.min { $0 < $1}!
-print(element.key)
+let result = hashmap.min { $0 < $1}!
+print(result.key)
